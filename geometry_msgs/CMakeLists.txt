@@ -34,7 +34,8 @@ add_message_files(
   Vector3.msg
   Vector3Stamped.msg
   Wrench.msg
-  WrenchStamped.msg)
+  WrenchStamped.msg
+  PoseWithVelocity.msg)
 
 generate_messages(DEPENDENCIES std_msgs)
 
